@@ -1,5 +1,5 @@
 .bg-primary {
-    background-color: #0716F0;
+    background-color: #4B3636;
   }
   
   .card-img-top {
@@ -8,3 +8,20 @@
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
   }
+
+  fieldset{
+   border: 1px groove #ddd !important;
+   padding: 0 1.4em 1.4em 1.4em !important;
+   margin: 0 0 1.5em 0 !important;
+   -webkit-box-shadow:  0px 0px 0px 0px #000;
+   box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend{
+  font-size: 2.0em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  width:auto;
+  padding:0 10px;
+  border-bottom:none;
+}
